@@ -4,12 +4,9 @@
 }
 @font-face {
     font-family: 'Montseratt';
-    src: url(fonts/Montserrat-Regular.woff);
+    src: url(fonts/montserrat-regular.woff);
 }
-@font-face {
-    font-family: 'Montseratt';
-    src: url(Fonts/Montserrat-Regular.woff);
-}
+
 @font-face {
     font-family: 'Montseratt-bold';
     src: url(fonts/Montserrat-Bold.woff);
