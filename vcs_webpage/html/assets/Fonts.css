@@ -6,11 +6,7 @@
     font-family: 'Montseratt';
     src: url(fonts/Montserrat-Regular.woff);
 }
-@font-face {
-    font-family: 'Montseratt-bold';
-    src: url(Fonts/Montserrat-Bold.woff);
-    font-weight: bold;
-}
+
 @font-face {
     font-family: 'Roboto';
     src: url(fonts/Roboto-Regular.woff);
