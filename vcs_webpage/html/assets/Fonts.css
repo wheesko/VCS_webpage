@@ -16,6 +16,11 @@
     font-weight: bold;
 }
 @font-face {
+    font-family: 'Montseratt-bold';
+    src: url(fonts/Montserrat-Bold.woff);
+    font-weight: bold;
+}
+@font-face {
     font-family: 'Roboto';
     src: url(fonts/Roboto-Regular.woff);
 }
