@@ -12,13 +12,19 @@
 }
 @font-face {
     font-family: 'Montseratt-bold';
+    src: url(fonts/Montserrat-Bold.woff);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Montseratt-bold';
     src: url(Fonts/Montserrat-Bold.woff);
     font-weight: bold;
 }
 
 @font-face {
     font-family: 'Roboto';
-    src: url(fonts/Roboto-Regular.woff);
+    src: url(Fonts/Roboto-Regular.woff);
 }
 @font-face {
     font-family: 'Roboto-bold';
