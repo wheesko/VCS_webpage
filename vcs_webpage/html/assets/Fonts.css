@@ -2,10 +2,7 @@
     font-family: 'KaushanScript-Regular';
     src: url(fonts/KaushanScript-Regular.woff);
 }
-@font-face {
-    font-family: 'Montseratt';
-    src: url(fonts/Montserrat-Regular.woff);
-}
+
 @font-face {
     font-family: 'Montseratt';
     src: url(Fonts/Montserrat-Regular.woff);
