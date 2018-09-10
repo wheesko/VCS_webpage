@@ -15,11 +15,7 @@
     src: url(Fonts/Montserrat-Bold.woff);
     font-weight: bold;
 }
-@font-face {
-    font-family: 'Montseratt-bold';
-    src: url(fonts/Montserrat-Bold.woff);
-    font-weight: bold;
-}
+
 @font-face {
     font-family: 'Roboto';
     src: url(fonts/Roboto-Regular.woff);
@@ -27,10 +23,5 @@
 @font-face {
     font-family: 'Roboto-bold';
     src: url(Fonts/Roboto-Bold.woff);
-    font-weight: bold;
-}
-@font-face {
-    font-family: 'Roboto-bold';
-    src: url(fonts/Roboto-Bold.woff);
     font-weight: bold;
 }
