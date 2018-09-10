@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/Reset.css">
+    <link rel="stylesheet" href="assets/Style.css">
+</head>
+<body>
+
+<!--Header start-->
+    <header class="header" id="Intro">
+        <!--TOPNAV START-->
+        <nav>
+            <ul class="nav__container">
+                <li class="logo">
+                         <a href="#" class="white">MoGo</a> 
+                </li>
+                <li class="buttons">    
+                    <ul class="nav__container">
+                        <li> <a href="#" class="white" onclick="scrollToTarget('#About')">About</a>  </li>                                
+                        <li> <a href="#" class="white" onclick="scrollToTarget('#Service')">Service</a></li>
+                        <li> <a href="#" class="white" onclick="scrollToTarget('#Work')">Work</a>   </li>             
+                        <li> <a href="#" class="white" onclick="scrollToTarget('#Blog')">Blog</a>   </li>              
+                        <li> <a href="#" class="white" onclick="scrollToTarget('#Contact')">Contact</a></li>
+                        <li> <a href="#" class="icon-SHOPPING-CART white"></a></li>  
+                        <li> <a href="#" class="icon-MAGNIFYING-GLASS white"></a></li>                     
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <!--TOPNAV END-->
+        <!--HEADINGS START-->
+        <div class="title__container white">
+            <div class="text__container">
+                <h2>
+                    Creative template
+                </h2>
+            </div>
+            <div class="text__container">
+                <h3>
+                    Welcome to MoGo
+                </h3>
+            </div>
+            
+            <div class="line__container">
+
+            </div>
+            <div class="button__container">
+                <button class="white"> Learn More</button>
+            </div>
+        </div>
+        <!--HEADINGS END-->
+        <!--BottomNav start-->
+        <div class="navigation" id="navigation">
+            <nav>
+            <ul class="nav__container">
+                <li class="nav_bottom_button_container" onmouseenter="transitionLine(this)" onmouseleave="ShrinkLine(this)">
+                    <a href="#Intro" class="transparent" onclick="scrollToTarget('#Intro') " target="_self"> <div class="on_hover_border" ></div> <span class="bolded"> 01 </span> Intro</a>                              
+                </li>
+                <li class="nav_bottom_button_container" onmouseenter="transitionLine(this)" onmouseleave="ShrinkLine(this)">
+                    <a href="#Work" class="transparent" onclick="scrollToTarget('#Work')" target="_self"> <div class="on_hover_border"></div> <span class="bolded"> 02 </span> Work</a>
+                    
+                </li>
+                <li class="nav_bottom_button_container" onmouseenter="transitionLine(this)" onmouseleave="ShrinkLine(this)">
+                    <a href="#About" class="transparent" onclick="scrollToTarget('#About')" target="_self"> <div class="on_hover_border"></div> <span class="bolded"> 03 </span> About</a>
+                    
+                </li>
+                <li class="nav_bottom_button_container" onmouseenter="transitionLine(this)" onmouseleave="ShrinkLine(this)">
+                    <a href="#Contact" class="transparent" onclick="scrollToTarget('#Contact')" target="_self"> <div class="on_hover_border"></div> <span class="bolded"> 04 </span> Contacts</a>
+                        
+                </li>
+            </ul>
+            </nav>
+        </div>
+        <!--BottomNav end-->
+    </header>
+<!--Header end-->
+
+    <!--WhatWeDo start-->
+    <section class="what_we_do" id="About">
+            <div class="title__container ">
+                    <div class="text__container">
+                        <h2>
+                            What we do
+                        </h2>
+                    </div>
+                    <div class="text__container">
+                        <h3>
+                            Story about us
+                        </h3>
+                    </div>
+                    <div class="line__container">
+                       
+                        </div>
+                    <div class="text__container">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere deserunt labore quo quidem neque pariatur optio molestiae magnam eaque maiores praesentium dolorum, blanditiis adipisci itaque consequatur, nisi, saepe numquam perferendis!</p>
+                    </div>
+                   
+                </div>
+                <div class="pictures">
+                    <ul class="nav__container">
+                        <li class="image1">
+                            <a href="#">
+                                <div class="hidden_logo icon-USERS true_transparent_logo"> 
+                                    <h5>Super team</h5>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="image2">
+                            <a href="#">
+                                <div class="hidden_logo icon-USERS true_transparent_logo">
+                                    <h5>Super team</h5>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="image3">
+                            <a href="#">
+                                <div class="hidden_logo icon-USERS true_transparent_logo">
+                                    <h5>Super team</h5>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+    </section>
+    <!--WhatWeDo end-->
+    <section class="numbers">
+        <div>
+            <ul class="nav__container">
+                <li>
+                    <h3>42</h3>
+                    <h2>Web Design Projects</h2>
+                </li>
+                <li>
+                    <h3>123</h3>
+                    <h2>Happy Clients</h2>
+                </li>
+                <li>
+                    <h3>15</h3>
+                    <h2>Award Winners</h2>
+                </li>
+                <li>
+                    <h3>99</h3>
+                    <h2>Cups of Coffee</h2>
+                </li>
+                <li>
+                    <h3>24</h3>
+                    <h2>Members</h2>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!--Services start-->
+    <section class="services" id="Work">
+        <div class="title__container ">
+            <div class="text__container">
+                <h2>
+                    We work with
+                </h2>
+            </div>
+            <div class="text__container">
+                <h3>
+                    Amazing services
+                </h3>
+            </div>
+            <div class="line__container">
+               
+            </div>
+            
+            <div class="descriptions">
+                <ul class="nav__container">
+                    <li class="description">
+                        <div class="icon__container icon-ALARM"></div>
+                        <div class="paragraph__container"><h6>Photography</h6><h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque esse aliquam iure.</h2></div>
+                    </li>
+                    <li class="description">
+                        <div class="icon__container icon-LINE-GRAPH"></div>
+                        <div class="paragraph__container"><h6>Web design</h6><h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque esse aliquam iure.</h2></div>
+                    </li>
+                    <li class="description">
+                        <div class="icon__container icon-COMPUTER-_-OK"></div>
+                        <div class="paragraph__container"><h6>Creativity</h6><h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque esse aliquam iure.</h2></div>
+                    </li>
+                    <li class="description">
+                        <div class="icon__container icon-BOOK-2"></div>
+                        <div class="paragraph__container"><h6>Seo</h6><h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque esse aliquam iure.</h2></div>
+                    </li>
+                    <li class="description">
+                        <div class="icon__container icon-HOME"></div>
+                        <div class="paragraph__container"><h6>CSS/HTML</h6><h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque esse aliquam iure.</h2></div>
+                    </li>
+                    <li class="description">
+                        <div class="icon__container icon-IMAGE"></div>
+                        <div class="paragraph__container"><h6>Digital</h6><h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque esse aliquam iure.</h2></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- Services end-->
+    <!--Background devices start-->
+    <section class="devices_background">
+        <div class="title__container">
+            <div class="text__container">
+                <h2>
+                    For all devices
+                </h2>
+            </div>
+            <div class="text__container">
+                <h3>
+                    Unique design
+                </h3>
+            </div>
+            <div class="line__container">
+               
+            </div>
+            <div class="devices__container">
+                <div class="image__hidden_tablet">
+                   
+                </div>
+              
+            </div>
+            <div class="image__hidden_phone">
+                   
+            </div>
+        </div>
+    </section>
+    <!--Backgound devices end-->
+    <section class="service">
+        <div class="title__container">
+            <div class="text__container">
+                <h2>
+                    Service
+                </h2>
+            </div>
+            <div class="text__container">
+                <h3>
+                    What we do
+                </h3>
+            </div>
+            <div class="line__container">
+               
+            </div>
+            <div class="text__container">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere deserunt labore quo quidem neque pariatur optio molestiae magnam eaque maiores praesentium dolorum, blanditiis adipisci itaque consequatur, nisi, saepe numquam perferendis!</p>
+            </div>
+            <div class="image__and_text_drawers">
+                <div class="image__container">
+
+                </div>
+                <div class="drawers__container">
+                    <ul class="drawers">
+                        <li class="drawer textarea_scroll">
+                            <button class="icon-PICTURE" onclick="unhideParagraph(this)" ><span>Photography</span><span class="icon-ARROW-_-DOWN"></span></button>
+                            <p id="p1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit placeat nam animi minima voluptates consequatur velit! Doloribus velit reprehenderit repellat soluta totam. Omnis nesciunt magnam quis harum nostrum itaque earum.</p>
+                        </li>
+                        <li class="drawer textarea_scroll">
+                            <button class="icon-EQUALIZER" onclick="unhideParagraph(this)"><span>Creativity</span><span class="icon-ARROW-_-DOWN"></span></button>
+                            <p id="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita commodi vitae voluptatem. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus cum consequuntur, quis, voluptatum consectetur earum ipsum libero molestias fugit dolor impedit ullam explicabo asperiores, obcaecati accusantium quia alias? Qui fuga ratione repellat quod dolorem dolorum blanditiis omnis reiciendis optio quidem totam aperiam aliquid eos sequi voluptate deleniti, tempore asperiores! Facere quisquam tempora vitae eaque aliquid iure praesentium corrupti reprehenderit ullam quibusdam impedit quae sint dicta, cum a? Aliquam saepe quam ex repellendus eaque impedit iure aut vel eos omnis, praesentium amet reprehenderit eveniet vero repudiandae dicta esse nulla illum corporis dolor porro dignissimos voluptates iste mollitia? Necessitatibus, in. Voluptatem, alias id earum voluptas dolores ipsam blanditiis? Omnis quasi, iure voluptatibus corporis distinctio velit pariatur natus quod deserunt. Unde asperiores voluptates magnam modi? Totam officiis dolorum, quis quaerat odit ratione debitis voluptas mollitia vero, magni consectetur odio consequuntur nostrum corporis doloremque repudiandae explicabo, est suscipit dolor recusandae. Sapiente dolorum, deserunt sed adipisci impedit veniam corrupti molestiae aperiam reprehenderit doloribus minima eius sint aut esse provident doloremque non quae. Vitae quidem eos inventore ipsa earum voluptatibus quibusdam ut corrupti facere, quos qui fugit distinctio repudiandae voluptas ipsam aperiam neque voluptatum. Eveniet illum perspiciatis quod eaque impedit quae recusandae expedita aperiam vero quidem at vitae mollitia, reiciendis tenetur saepe eligendi odit amet dolorum tempore. Animi, placeat. Tenetur cum, adipisci enim ab natus repudiandae maxime ad aliquam fugit optio debitis praesentium odio non eius voluptates ratione. Perferendis doloribus optio eveniet sint provident aliquam nihil, quod dignissimos eius saepe excepturi earum culpa libero ut consequatur maxime exercitationem tempora itaque deserunt animi vitae dicta mollitia deleniti? Quia molestias expedita ut earum esse eum rem, doloremque, consectetur minus ipsam odit corrupti adipisci consequuntur labore nostrum officia dicta in fuga quam! Dolorum sit assumenda quia molestiae natus ipsa, sunt eveniet hic accusamus inventore laboriosam odio cumque praesentium cum tempora eius corporis enim, deserunt tempore reprehenderit excepturi quis facilis saepe. Debitis esse iusto voluptatum perspiciatis minus, doloribus unde? Neque ex nulla excepturi atque dolorum, quas dolorem ipsam minus voluptates vero labore, consequuntur quos repellat tempore aliquid veritatis illum. Ab nesciunt quod odio. Quasi, assumenda nihil. Dolores molestiae architecto cum nobis eos totam, alias fuga blanditiis, fugit eius quasi at et error autem, rem nam consequuntur doloribus vitae tempora sed asperiores! Facere delectus distinctio itaque mollitia tenetur quod aperiam ducimus consectetur, repellendus enim adipisci, ipsum dolorum nobis fugit aliquid voluptatem neque ratione quo dolores accusamus libero magnam vero iusto! Similique perspiciatis expedita, quam facere molestias quidem assumenda consequuntur. Delectus earum ducimus natus corrupti nulla. Perspiciatis est natus quis doloremque dolorum, ea at veritatis distinctio doloribus pariatur aspernatur vero unde eligendi maiores corrupti beatae, ipsam sequi voluptates cum neque reprehenderit libero aliquid explicabo tempora. Voluptatibus, ea ullam id nisi excepturi nulla assumenda ipsum modi fugit eum ipsa porro velit. Aperiam quasi expedita vel, sequi, ab, eius consectetur voluptatem ipsa aliquam nam possimus recusandae hic aut voluptatum architecto nisi fugit adipisci porro dolor? Dicta aliquid odio pariatur modi ipsum maxime blanditiis nobis! Aut voluptate culpa consequatur impedit itaque velit et similique cupiditate! Minus maiores quos excepturi qui in modi unde corporis ipsa voluptatum vitae numquam error doloribus eaque minima, nemo quod suscipit provident neque maxime dolor! Incidunt, recusandae. Culpa, consectetur eos? Saepe tempore harum quam atque deleniti minus dolorum fugiat! lorem500 Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, exercitationem, tempore ullam officiis, molestiae consequuntur assumenda quidem quod quam alias repellendus! Quas cupiditate fuga repellendus id fugiat praesentium fugit officiis!</p>
+                        </li>
+                        <li class="drawer textarea_scroll">
+                            <button class="icon-BULLSEYE" onclick="unhideParagraph(this)"><span>Web</span><span class="icon-ARROW-_-DOWN"></span></button>
+                            <p id="p3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non ex debitis dicta, velit natus nisi iusto ipsum impedit tempora consectetur eum, vel officiis quisquam iste suscipit, nobis sint ducimus harum.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+    </section>
+    <!-- testimonials start-->
+    <section class="testimonials">
+        <div class="callout-text">
+            <div class="testimonial-carousel">
+                <!-- Circled Left 2 icon by Icons8 -->
+                <div class="icon-container">
+                    <span class="lnr icon-ARROW-_LEFT"></span>
+                </div>
+                <div class="testimonial-items">
+                    <div class="testimonial-item first">
+                        <blockquote>
+                            
+                                <div class="contain_stuff">
+                                    <span class="icon-SPEECH-4 big_icon"></span>
+                                    <p class="testimonial-quote">
+                                        Thank you very much for the great job you made of my cooker. You made a horrible job look easy and I can't thank you enough. I hate cleaning oven racks and they sparkle now. Thanks again.
+                                    </p>
+                                </div>   
+                            
+                            <p class="testimonial-author"><cite> <span class="line__container"></span> H Scott, Edinburgh</cite></p>
+                        </blockquote>
+                    </div>
+                    <div class="testimonial-item second">
+                        <blockquote>
+                            <div class="contain_stuff">
+                                <span class="icon-SPEECH-4 big_icon"></span>
+                                <p class="testimonial-quote">Just a wee note to say 'WOW!' and thank you to you, and colleagues. Our old flat is sparkling and looks absolutely fantastic so much again for all your hard work yesterday.</p>
+                            </div>
+                            <p class="testimonial-author"><cite><span class="line__container"></span> Nicola, Leith, Edinburgh</cite></p>
+                            
+                        </blockquote>
+                    </div>
+                    <div class="testimonial-item third">
+                        <blockquote>
+                                <div class="contain_stuff">
+                                        <span class="icon-SPEECH-4 big_icon"></span>
+                                        <p class="testimonial-quote">As mentioned I was very satisfied with the quality of the cleaning. The lady was very cheerful and enthusiastic. I will definitely consider using Quality Cleaning Services again.</p>
+                                </div>
+                                      <p class="testimonial-author"><cite><span class="line__container"></span> W S Khan, Lothian Road, Edinburgh</cite></p>
+                        </blockquote>
+                    </div>
+                </div>
+                <!-- End .testimonial-items -->
+                <div class="icon-container">
+                    <span class="lnr icon-ARROW-_-RIGHT"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- testimonials end-->
+    <!-- who we are start-->
+    <section class="Who_we_are" id="Contact">
+            <div class="title__container ">
+                    <div class="text__container">
+                        <h2>
+                            Who we are
+                        </h2>
+                    </div>
+                    <div class="text__container">
+                        <h3>
+                            Meet our team
+                        </h3>
+                    </div>
+                    <div class="line__container">
+                       
+                        </div>
+                    <div class="text__container">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere deserunt labore quo quidem neque pariatur optio molestiae magnam eaque maiores praesentium dolorum, blanditiis adipisci itaque consequatur, nisi, saepe numquam perferendis!</p>
+                    </div>
+                   
+                </div>
+                <div class="pictures">
+                    <ul class="nav__container">
+                        <li class="image4 hovered">
+                            <a href="#">
+                                <ul class="hidden_links"> 
+                                    <li>
+                                        <div class="icon-facebook"><a href="#nuor"></a></div>
+                                    </li>
+                                    <li>
+                                        <div class="icon-twitter"><a href="#nuor"></a></div>
+                                    </li>
+                                    <li>
+                                        <div class="icon-pinterest"><a href="#nuor"></a></div>
+                                    </li>
+                                    <li>
+                                        <div class="icon-instagram"><a href="#nuor"></a></div>
+                                    </li>                            
+                                </ul>
+                           
+                            </a>
+                           
+                           
+                        </li>
+                        <div class="phone_resolution_text">
+                                <h5>MICHAEL FERTIC</h5>
+                                <h6>Developer</h6>
+                            </div>
+                        <li class="image5 hovered">
+                            <a href="#">
+                                <ul class="hidden_links">
+                                        <li>
+                                            <div class="icon-facebook"><a href="#nuor"></a></div>
+                                        </li>
+                                        <li>
+                                            <div class="icon-twitter"><a href="#nuor"></a></div>
+                                        </li>
+                                        <li>
+                                            <div class="icon-pinterest"><a href="#nuor"></a></div>
+                                        </li>
+                                        <li>
+                                            <div class="icon-instagram"><a href="#nuor"></a></div>
+                                        </li>                      
+                                </ul>
+                              
+                            </a>
+                        </li>
+                        <div class="phone_resolution_text">
+                                <h5>MICHAEL FERTIC</h5>
+                                <h6>Developer</h6>
+                        </div>
+                        <li class="image6 hovered">
+                            <a href="#labs">
+                                <ul class="hidden_links">
+                                    <li>
+                                        
+                                        <div class="icon-facebook"><a href="#nuor"></a></div>
+                                        
+                                    </li>
+                                    <li>
+                                        <div class="icon-twitter"><a href="#nuor"></a></div>
+                                    </li>
+                                    <li>
+                                        <div class="icon-pinterest"><a href="#nuor"></a></div>
+                                    </li>
+                                    <li>
+                                        <div class="icon-instagram"><a href="#nuor"></a></div>
+                                    </li>                               
+                                </ul>
+                               
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="phone_resolution_text">
+                        <h5>MICHAEL FERTIC</h5>
+                        <h6>Developer</h6>
+                    </div>
+                </div>
+                <ul class="names__container">
+                        <li>                    
+                            <div class="name__text_container">
+                                <h5>MATTHEW DIX</h5>
+                                <h6>Graphic Design</h6>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="name__text_container">
+                                <h5>CHRISTOPHER CAMPBELL</h5>
+                                <h6>Branding/UX Design</h6>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="name__text_container">
+                                <h5>MICHAEL FERTIC</h5>
+                                <h6>Developer</h6>
+                            </div>
+                        </li>
+                    </ul>
+    </section>
+    <!-- who we are end-->
+    <!--hipster logos section-->
+    <section class="hipster_logos">
+            <object data="assets/Images/Hipsterstuff/Layer_25.svg" type="image/svg+xml">
+                <img src="assets/Images/Hipsterstuff/Layer_25.jpg" />
+            </object>   
+    </section>
+
+    <section class="Some_of_our_work">
+            <div class="title__container ">
+                    <div class="text__container">
+                        <h2>
+                            What we do
+                        </h2>
+                    </div>
+                    <div class="text__container">
+                        <h3>
+                            Some of our work
+                        </h3>
+                    </div>
+                    <div class="line__container">
+                       
+                        </div>
+                    <div class="text__container">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere deserunt labore quo quidem neque pariatur optio molestiae magnam eaque maiores praesentium dolorum, blanditiis adipisci itaque consequatur, nisi, saepe numquam perferendis!</p>
+                    </div>
+                   
+                </div>
+                <div class="collage__container">
+                    <div class="collage_item image7">
+                        <a href="#">
+                            <div class="hidden_logo icon-PICTURE true_transparent_logo"> 
+                                <h5>Super team</h5>
+                                <h6>Lorem ipsum dolor sit.</h6>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="collage_item image8">
+                        <a href="#">
+                            <div class="hidden_logo icon-PICTURE true_transparent_logo"> 
+                                <h5>Creatively designed</h5>
+                                <h6>Lorem ipsum dolor sit.</h6>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="collage_item image9">
+                        <a href="#">
+                            <div class="hidden_logo icon-PICTURE true_transparent_logo"> 
+                                <h5>Creatively designed</h5>
+                                <h6>Lorem ipsum dolor sit.</h6>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="collage_item image10">
+                        <a href="#">
+                            <div class="hidden_logo icon-PICTURE true_transparent_logo"> 
+                                <h5>Creatively designed</h5>
+                                <h6>Lorem ipsum dolor sit.</h6>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="collage_item image11">
+                        <a href="#">
+                            <div class="hidden_logo icon-PICTURE true_transparent_logo"> 
+                                <h5>Creatively designed</h5>
+                                <h6>Lorem ipsum dolor sit.</h6>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="collage_item image12">
+                        <a href="#">
+                            <div class="hidden_logo icon-PICTURE true_transparent_logo"> 
+                                <h5>Creatively designed</h5>
+                                <h6>Lorem ipsum dolor sit.</h6>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="collage_item image13">
+                        <a href="#">
+                            <div class="hidden_logo icon-PICTURE true_transparent_logo"> 
+                                <h5>Creatively designed</h5>
+                                <h6>Lorem ipsum dolor sit.</h6>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+    </section>
+
+    <section class="testimonials_people">
+        <div class="callout-text">
+            <div class="testimonial-carousel">
+                <!-- Circled Left 2 icon by Icons8 -->
+                <div class="icon-container">
+                    <span class="lnr icon-ARROW-_LEFT"></span>
+                </div>
+                <div class="testimonial-items">
+                    <div class="testimonial-item first">
+                        <blockquote>
+                            
+                                <div class="contain_stuff">
+                                    <img src="assets/Images/ProfilePics/Layer 36.jpg" alt="">
+                                    <div class="testimonial_text_container">
+                                    <p class="testimonial-quote">
+                                        Thank you very much for the great job you made of my cooker. You made a horrible job look easy and I can't thank you enough. I hate cleaning oven racks and they sparkle now. Thanks again.
+                                    </p>
+                                    <p class="testimonial-author"><cite> <span class="line__container"></span> H Scott, Edinburgh</cite></p>
+                                    </div>
+                                </div>   
+                            
+                        </blockquote>
+                    </div>
+                    <div class="testimonial-item second">
+                        <blockquote>
+                           
+                            <div class="contain_stuff">
+                                <img src="assets/Images/ProfilePics/Layer 36.jpg" alt="">
+                                <div class="testimonial_text_container">
+                                <p class="testimonial-quote">
+                                    Thank you very much for the great job you made of my cooker. You made a horrible job look easy and I can't thank you enough. I hate cleaning oven racks and they sparkle now. Thanks again.
+                                </p>
+                                <p class="testimonial-author"><cite> <span class="line__container"></span> H Scott, Edinburgh</cite></p>
+                                </div>
+                            </div>   
+                        </blockquote>
+                    </div>
+                    <div class="testimonial-item third">
+                        <blockquote>
+                           
+                            <div class="contain_stuff">
+                                <img src="assets/Images/ProfilePics/Layer 36.jpg" alt="">
+                                <div class="testimonial_text_container">
+                                <p class="testimonial-quote">
+                                    Thank you very much for the great job you made of my cooker. You made a horrible job look easy and I can't thank you enough. I hate cleaning oven racks and they sparkle now. Thanks again.
+                                </p>
+                                <p class="testimonial-author"><cite> <span class="line__container"></span> H Scott, Edinburgh</cite></p>
+                                </div>
+                            </div>   
+                        </blockquote>
+                    </div>
+                </div>
+                <!-- End .testimonial-items -->
+                <div class="icon-container">
+                    <span class="lnr icon-ARROW-_-RIGHT"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="what_people_say">
+
+        <div class="title__container ">
+            <div class="text__container">
+                <h2>
+                    Happy clients
+                </h2>
+            </div>
+            <div class="text__container">
+                <h3>
+                    What people say
+                </h3>
+            </div>
+            <div class="line__container">
+               
+                </div>
+            <div class="text__container">
+            </div>       
+        </div>
+
+            <ul class="clients_list">
+                <li class="client_whole">
+                    <div>
+                        <img src="assets/Images/ProfilePics/Layer-47-compressor.jpg" alt="">
+                    </div>
+                        <div class="client">
+                            <h5>
+                                Matthew Dix
+                            </h5>
+                            <h6>
+                                Graphic Design
+                            </h6>
+                            <div class="line__container">
+
+                            </div>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias numquam quasi nesciunt incidunt inventore rem voluptas vel esse! Veritatis minima exercitationem cum beatae tenetur doloribus a adipisci architecto modi magni.
+                            </p>
+                        </div> 
+                   
+                </li>
+                <li class="client_whole">
+                        <div class="image_cont">
+                            <img src="assets/Images/ProfilePics/Layer 49.jpg" alt="">
+                           </div>
+                            <div class="client">
+                                <h5>
+                                    Nick Karvounis
+                                </h5>
+                                <h6>
+                                    Graphic Design                      
+                                </h6>
+                                <div class="line__container">
+        
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, laborum cupiditate mollitia repellendus fugit, nobis pariatur deserunt odit accusamus, velit a ullam atque illo cumque? Voluptate eum mollitia deleniti accusamus!                       
+                                </p>
+                            </div>
+                </li>
+                <li class="client_whole">
+                    <div class="image_cont">
+                            <img src="assets/Images/ProfilePics/Layer 50.jpg" alt="">
+                        </div>
+                            <div class="client">
+                            <h5>
+                                Jaelynn Castillo
+                            </h5>
+                            <h6>
+                                Graphic Design
+                            </h6>
+                            <div class="line__container">
+    
+                            </div>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, laborum cupiditate mollitia repellendus fugit, nobis pariatur deserunt odit accusamus, velit a ullam atque illo cumque? Voluptate eum mollitia deleniti accusamus!              
+                            </p>
+                        </div>
+                </li>
+                <li class="client_whole">
+                    <div class="image_cont">
+                            <img src="assets/Images/ProfilePics/Layer-51-compressor.jpg" alt="">
+                        </div>
+                            <div class="client">
+                                <h5>
+                                    Mike Petrucci
+                                </h5>
+                                <h6>
+                                    Graphic Design
+                                </h6>
+                                <div class="line__container">
+        
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, laborum cupiditate mollitia repellendus fugit, nobis pariatur deserunt odit accusamus, velit a ullam atque illo cumque? Voluptate eum mollitia deleniti accusamus!                           
+                                </p>
+                            </div>
+                </li>
+            </ul>
+    </section>
+
+    <section class="blogs" id="Blog">
+
+            <div class="title__container ">
+                    <div class="text__container">
+                        <h2>
+                            Our stories
+                        </h2>
+                    </div>
+                    <div class="text__container">
+                        <h3>
+                            Latest blog
+                        </h3>
+                    </div>
+                    <div class="line__container">
+                       
+                        </div>
+                    <div class="text__container">
+                    </div>       
+            </div>
+            
+            <ul class="blog_container">
+                <li class="blog_item">
+                    <a href="">
+                    <div class="blog_bg bg1">
+                        <div class="date">
+                            <h4>
+                                15
+                            </h4>
+                            <p>
+                                Jan
+                            </p>
+                        </div>
+                    </div>
+                    <h5>
+                        Lorem ipsum dolor sit amet.
+                    </h5>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, reiciendis.
+                    </p>
+                    <div class="stats_container">
+                            <div class="icon-VIEW">
+                                    999
+                                </div>
+                                <div class="icon-SPEECH-BUBBLE-2">
+                                    999
+                                </div>
+                    </div>
+                </a>
+                </li>
+                <li class="blog_item">
+                    <a href="#">
+                    <div class="blog_bg bg2">
+                        <div class="date">
+                            <h4>
+                                15
+                            </h4>
+                            <p>
+                                Jan
+                            </p>
+                        </div>
+                    </div>
+                    <h5>
+                        Lorem ipsum dolor sit amet.
+                    </h5>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, iusto?
+                    </p>
+                    <div class="stats_container">
+                            <div class="icon-VIEW">
+                                    999
+                                </div>
+                                <div class="icon-SPEECH-BUBBLE-2">
+                                    999
+                                </div>
+                    </div>
+                    </a>
+                </li>
+                <li class="blog_item">
+                    <a href="#">
+                    <div class="blog_bg bg3">
+                        <div class="date">
+                                <h4>
+                                    15
+                                </h4>
+                                <p>
+                                    Jan
+                                </p>
+                        </div>
+                    </div>
+                    <h5>
+                        Lorem ipsum dolor sit amet.
+                    </h5>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, aspernatur.
+                    </p>
+                    <div class="stats_container">
+                        <div class="icon-VIEW">
+                            <span>999 </span>
+                        </div>
+                        <div class="icon-SPEECH-BUBBLE-2">
+                            <span> 999</span>
+                        </div>
+                    </div>
+                    </a>
+                </li>
+            </ul>
+
+    </section>
+    <section class="map">
+        <a href="https://goo.gl/maps/cw2J9n3TPEp">
+        <div class="map_container">
+            
+                <div class="icon-PIN-2">
+
+                </div>
+                <h2>
+                    OPEN MAP
+                </h2>
+                <div class="line__container">
+
+                </div>
+           
+        </div>
+        </a>
+    </section>
+    <footer class="footer">
+        <div class="footer_container">
+            <div class="header_text">
+                <h5>
+                    MoGo
+                </h5>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi deleniti laudantium tempora illum accusantium possimus odit distinctio dolor expedita! Iste ad voluptatem obcaecati reiciendis maxime quis esse quia eos totam.
+                </p>
+                <h6>
+                    <span> 15K</span> followers
+                </h6>
+                <ul class="icons_container">
+                    <li class="text_follow">Follow us:</li>
+                    <a href=""><li class="icon-facebook"></li></a> 
+                    <a href=""> <li class="icon-twitter"></li></a>
+                    <a href=""><li class="icon-instagram"></li></a>
+                    <a href=""><li class="icon-pinterest"></li></a>
+                    <a href=""><li class="icon-google-plus"></li></a>
+                    <a href=""><li class="icon-youtube"></li></a>
+                    <a href=""><li class="icon-dribbble"></li></a>
+                    <a href=""><li class="icon-tumblr"></li></a>
+                </ul>
+                <form action="">
+                        <input type="text" name="email_input" placeholder="Your Email...">
+                        <button> SUBSCRIBE</button>
+                    </form>
+            </div>
+            <div class="blog_links">
+                <h4>BLOGS</h4>
+                <ul>
+                    <li class="link_to_blog"> 
+                        <a href=""> 
+                        <div class="blog_img image14">
+
+                        </div>
+                         <div>
+                        <h5>
+                            Lorem ipsum dolor sit amet.
+                           
+                        </h5>
+                        <h6>
+                            Jan 9, 2016
+                        </h6>
+                        </a>  
+                    </div>
+                    </li>
+                    <li class="link_to_blog">
+                        <a href="">
+                        <div class="blog_img image15">
+
+                         </div>
+                         <div>
+                            <h5>
+                                Lorem ipsum dolor sit amet.
+                            </h5>
+                            <h6>
+                                Jan 9, 2016
+                            </h6>
+                            
+                        </a>
+                        </div>
+                    </li>
+                    <li class="link_to_blog">
+                            <a href="">
+
+                        <div class="blog_img image16">
+
+                        </div>
+                        <div>
+                            <h5>
+                                Lorem ipsum dolor sit amet.
+                            </h5>
+                            <h6>
+                                Jan 9, 2016
+                            </h6>
+                        </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="Instagram_collage">
+                    <h4>INSTAGRAM</h4>
+                    <ul class="instagram_container">
+                        <a href=""><li class="instagram_image image17"></li></a>
+                        <a href=""><li class="instagram_image image18"></li></a>
+                        <a href=""><li class="instagram_image image19"></li></a>
+                        <a href=""><li class="instagram_image image20"></li></a>
+                        <a href=""><li class="instagram_image image21"></li></a>
+                        <a href=""><li class="instagram_image image22"></li></a>
+                        <a href=""><li class="instagram_image image23"></li></a>
+                        <a href=""><li class="instagram_image image24"></li></a>
+                        <a href=""><li class="instagram_image image25"></li></a>
+                    </ul>
+                    <h6> <a href=""> View More Photos </a> </h6>
+            </div>
+
+        </div>
+        <div class="end_credit">
+        <h4>
+            Mogo Free Template
+        </h4>
+    </div>
+    </footer>
+    <script src="assets/Scripts/jquery-3.3.1.js"></script>
+    <script src="assets/Scripts/OnScrollNav.js"></script>
+    <script src="assets/Scripts/Drawers.js"></script>
+    <script src="assets/Scripts/SmoothScroll.js"></script>
+    <script src="assets/Scripts/TransitionForLine.js"></script>
+    <script src="assets/Scripts/testimonialCarousel.js"></script>
+    <script src="assets/Scripts/NumberCounter.js"></script>
+</body>
+</html>
